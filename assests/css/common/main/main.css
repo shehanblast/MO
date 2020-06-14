@@ -1,0 +1,453 @@
+/*+--------------------------------------+*/
+/*+                                      +*/
+/*+                main                  +*/
+/*+                                      +*/
+/*+--------------------------------------+*/
+/*sheet-common*/
+
+/*---------------------------------------------section1 - home--------------------------------------------------------*/
+
+
+
+body{
+  color: #357DBD;
+}
+
+
+/*-----------------------------------------------slider----------------------------------------------------------*/
+
+.post-slider{
+
+  position: relative;
+}
+.post-slider .next{
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.post-slider .prev{
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.post-slider .post-wrapper{
+
+  width: 85%;
+  height: 290px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 10px 0px 10px 0px;
+}
+
+.post-slider .post-wrapper .post{
+  background: white;
+  display: inline-block;
+  width: 300px;
+  height: 330px;
+  margin: 0px 10px;
+  border-radius: 5px;
+  box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
+}
+.post-slider .post-wrapper .post .slider-image{
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.slider-title{
+  font-size: 20px;
+
+}
+
+.post-info h3{
+  font-size: 15px;
+  color:#585858;
+}
+.post-info p{
+  font-size: 10px;
+  color: #989898;
+
+}
+.post-info{
+  padding: 8px
+
+}
+
+
+.post-slider .post-wrappe{
+
+  width: 85%;
+  height: 290px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 10px 0px 10px 0px;
+}
+
+.post-slider .post-wrappe .post{
+  background: white;
+  display: inline-block;
+  width: 300px;
+  height: 330px;
+  margin: 0px 10px;
+  border-radius: 5px;
+  box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
+}
+.post-slider .post-wrappe .post .slider-image{
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.post-slider .nex{
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.post-slider .pre{
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+/*-----------------------------------------------slider end----------------------------------------------------------*/
+
+
+/*-----------------------------------------------puka----------------------------------------------------------*/
+
+#puka img {
+  width: 100%;
+  height: auto;
+}
+#puka .content-lg-box{
+  background: rgba(0, 137, 255, 0.30);
+  width: 100%;
+
+}
+
+#puka .bg {
+  /* The image used */
+  background: url("../../../images/m.png");
+
+  /* Full height */
+  height: 100%;
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*-----------------------------------------------puka end----------------------------------------------------------*/
+
+
+
+
+/*-----------------------------------------------ee----------------------------------------------------------*/
+#ee{
+  background: url("../../../images/g1.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+/*-----------------------------------------------ee----------------------------------------------------------*/
+
+
+/*-----------------------------------------------lol----------------------------------------------------------*/
+#lol span{
+  font-size: 50px;
+}
+
+#lol h2{
+  font-weight: bold;
+}
+#lol p{
+  color: #989898;
+}
+.pope{
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+#lol .content-lg-box{
+  background: rgba(0, 140, 255, 0.31);
+  width: 100%;
+
+}
+.xx{
+  background: url("../../../images/lol3.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+/*-----------------------------------------------lol end----------------------------------------------------------*/
+
+
+#section12 h2{
+  font-weight: bold;
+}
+
+#section9 h2{
+  font-weight: bold;
+}
+
+
+/*-----------------------------------------------alo----------------------------------------------------------*/
+
+.post-slider1{
+
+  position: relative;
+}
+
+
+
+.slider-title1{
+  font-size: 15px;
+  color: white;
+}
+
+.gg1{
+  font-size: 24px;
+}
+
+
+
+.post-slider1 .post-wrappe1{
+
+  width: 85%;
+  height: 290px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 10px 0px 10px 0px;
+}
+
+.post-slider1 .post-wrappe1 .post1{
+
+  display: inline-block;
+  width: 300px;
+  height: 350px;
+  margin: 0px 10px;
+  border-radius: 5px;
+
+}
+.post-slider1 .post-wrappe1 .post1 .slider-image1{
+  width: 100%;
+  height: 180px;
+  border-radius: 5px;
+
+}
+.post-slider1 .nex1{
+  position: absolute;
+  top: 40%;
+  right: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+.post-slider1 .pre1{
+  position: absolute;
+  top: 40%;
+  left: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+
+
+
+
+
+/*this part use to handle*/
+#c{
+    margin-top: 18%;
+    color: white;
+}
+
+
+/*==============================================social media==========================================================*/
+
+/*--------------------------------------------social media icons------------------------------------------------------*/
+
+
+@media all and (max-width: 680px) {
+    .icon-button {
+        border-radius: 1.6rem;
+        font-size: 0.8rem;
+        height: 1.6rem;
+        line-height: 1.6rem;
+        width: 1.6rem;
+    }
+
+    .icon-button:hover span {
+        width: 1.6rem;
+        height: 1.6rem;
+        border-radius: 1.6rem;
+        margin: -0.8rem;
+    }
+
+    /* Icons */
+    .icon-button i {
+        height: 1.6rem;
+        line-height: 1.6rem;
+        width: 1.6rem;
+    }
+    /*.pinterest {*/
+        /*display: none;*/
+    /*}*/
+}
+
+/*============================================end - social media======================================================*/
+
+
+/*-----------------------------------------------media quary----------------------------------------------------------*/
+
+@media all and (max-width: 768px){
+    #section1{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .section1-top-slider{
+        height: 50vh;
+    }
+
+    #section1-home-bg-img1{
+        width: 100%;
+        height: 50vh;
+
+    }
+
+    #section1-home-bg-img2{
+        width: 100%;
+        height: 50vh;
+
+    }
+
+    #section1-home-bg-img3{
+        width: 100%;
+        height:50vh;
+
+    }
+}
+
+@media all and (max-width: 425px) {
+    .x {
+        margin-top: 0;
+    }
+
+    #section6{
+        background-position:  -255vw -45px;
+    }
+}
+
+
+
+
+
+/*-----------------------------------------------footer----------------------------------------------------------*/
+
+
+
+.footer-end1 h6{
+  font-size: 14px;
+}
+.footer-end2 h6{
+  font-size: 12px;
+}
+
+
+.btn-back-to-top{
+  color:#64b5f6;
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  padding: 3px 15px;
+  border-radius: 4px;
+  font-size: 22px;
+}
+
+
+#nav11>ol li:active{
+    background: #005cbf;
+}
+
+
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+  }
+.ab{
+  background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+
+}
+
+#pop{
+  background: url("../../../images/m.png");
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+
+}
+
+#pop .content-lg-box{
+  background: rgba(0, 137, 255, 0.38);
+  width: 100%;
+  height: 600px;
+
+}
+
+
+/*-----------------------------------------------oop----------------------------------------------------------*/
+
+#alo img {
+  width: 100%;
+  height: auto;
+}
+#alo .content-lg-box{
+
+  width: 100%;
+
+}
+
+#alo .bg {
+  /* The image used */
+  background: url("../../../images/p3.png");
+
+  /* Full height */
+  height: 100%;
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*-----------------------------------------------puka end----------------------------------------------------------*/
